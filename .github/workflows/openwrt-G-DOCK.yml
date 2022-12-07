@@ -78,7 +78,7 @@ jobs:
           fi
           ./scripts/feeds install -a
 
-      - name: Download  Package # 6.下载包
+      - name: Download  Package # 6.下载
         run: |
           cd $WORK_PATH
           make defconfig
