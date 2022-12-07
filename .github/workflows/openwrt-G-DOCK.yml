@@ -36,7 +36,7 @@ jobs:
       - name: Checkout Master # 1.导入主分支
         uses: actions/checkout@master
 
-      - name: Initialization Environment # 2.初始化环境
+      - name: Initialization Environment # 2.初始环境
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
